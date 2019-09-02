@@ -1,0 +1,175 @@
+.addTravelForm__modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(37, 55, 70, 0.7);
+  z-index: 20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addTravelForm__modal-container {
+  background: #fff;
+  width: 540px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px black;
+  padding: 15px 25px;
+}
+
+.addTravelForm__modal-container > h2 {
+  text-align: center;
+  font-size: 32px;
+  margin: 0;
+  letter-spacing: 1.5px;
+}
+
+.addTravelForm__modal-container > button {
+  position: relative;
+  display: block;
+  top: -40px;
+  background: #cacaca;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.4s;
+  font-weight: bold;
+}
+
+.addTravelForm__modal-container > button:focus {
+  outline: none;
+}
+.addTravelForm__modal-container > button:hover {
+  background: #193948;
+  color: white;
+}
+
+.modal__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 25px;
+  border-radius: 10px;
+  color: black;
+}
+
+.modal__form-date {
+  background: #e6e6e6;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+.modal__form-date > label {
+  display: block;
+  margin-bottom: 15px;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.modal__form-date-data {
+  display: flex;
+}
+
+.modal_form-date-day input {
+  background: #cacaca;
+  border: none;
+  border-bottom: 1px solid gray;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.modal_form-date-day input:focus {
+  outline: none;
+}
+
+.modal_form-date-day span {
+  color: red;
+}
+.modal__form-trip {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.modal__form-trip-data input {
+  background: #cacaca;
+  border: none;
+  border-bottom: 1px solid gray;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.modal__form-trip-data input:focus {
+  outline: none;
+}
+
+.modal__form-trip-data span {
+  color: red;
+}
+
+.modal__form-trip-start {
+  background: #e6e6e6;
+  padding: 20px;
+  margin-right: 5px;
+  border-radius: 10px;
+}
+
+.modal__form-trip-start > label {
+  display: block;
+  margin-bottom: 15px;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.modal__form-trip-end {
+  background: #e6e6e6;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.modal__form-trip-end > label {
+  display: block;
+  margin-bottom: 15px;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.modal__form-numbers {
+  background: #e6e6e6;
+  display: flex;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.modal__form-numbers input {
+  background: #cacaca;
+  border: none;
+  border-bottom: 1px solid gray;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.modal__form-numbers input:focus {
+  outline: none;
+}
+
+.modal__form-numbers span {
+  color: red;
+}
+.modal__form-button {
+  width: 100%;
+  padding: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  color: black;
+  background: #fff;
+  border: 1px solid #c9c9c9;
+  transition: all 0.4s;
+}
+
+.modal__form-button:hover {
+  background: #193948;
+  color: white;
+}

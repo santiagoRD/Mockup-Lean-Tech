@@ -1,0 +1,49 @@
+.container__button-add {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.container__button-add:focus {
+  outline: none;
+}
+
+.container__button-add::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 10px;
+  background: #fff;
+  top: 9px;
+  right: 20px;
+  z-index: 20;
+  cursor: pointer;
+}
+
+.container__button-add::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 10px;
+  background: #fff;
+  top: 9px;
+  right: 20px;
+  z-index: 20;
+  transform: rotate(90deg);
+  cursor: pointer;
+}
+.button-add {
+  padding: 35px 35px;
+  position: absolute;
+  border-radius: 50%;
+  background: #ee8d38;
+  border: none;
+  top: -30px;
+  cursor: pointer;
+}
+
+.button-add:focus {
+  outline: none;
+}

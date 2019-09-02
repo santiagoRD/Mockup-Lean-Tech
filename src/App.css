@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+body,
+html {
+  background-color: #e6e6e6;
+  width: 1024px;
+  margin: 0 auto 50px;
+}
+
+.container__main {
+  margin: 10px 5%;
+}

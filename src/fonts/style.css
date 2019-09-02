@@ -1,0 +1,89 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("icomoon.eot?gfnk6y");
+  src: url("icomoon.eot?gfnk6y#iefix") format("embedded-opentype"),
+    url("icomoon.ttf?gfnk6y") format("truetype"),
+    url("icomoon.woff?gfnk6y") format("woff"),
+    url("icomoon.svg?gfnk6y#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  padding: 5px;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-calendar:before {
+  content: "\e906";
+  font-size: 36px;
+}
+.icon-home:before {
+  content: "\e900";
+  font-size: 16px;
+}
+.icon-compass:before {
+  content: "\e949";
+  font-size: 20px;
+}
+.icon-user:before {
+  content: "\e971";
+  font-size: 18px;
+}
+.icon-cog:before {
+  content: "\e994";
+  font-size: 16px;
+}
+.icon-star-empty:before {
+  content: "\e9d7";
+  font-size: 16px;
+}
+.icon-mail2:before {
+  content: "\ea84";
+  font-size: 16px;
+}
+.icon-truck:before {
+  content: "\e901";
+  font-size: 52px;
+}
+.icon-search:before {
+  content: "\e902";
+  font-size: 16px;
+}
+.icon-heart:before {
+  content: "\e903";
+  font-size: 36px;
+}
+.icon-bulb:before {
+  content: "\e904";
+}
+.icon-lamp:before {
+  content: "\e904";
+}
+.icon-idea:before {
+  content: "\e904";
+}
+.icon-sale:before {
+  content: "\e905";
+  font-size: 36px;
+}
+.icon-dots-horizontal-triple:before {
+  content: "\e908";
+  font-size: 24px;
+}
+.icon-checkmark-outline:before {
+  content: "\e907";
+}

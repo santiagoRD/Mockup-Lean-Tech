@@ -1,0 +1,43 @@
+{
+  "travel": [
+    {
+      "id": 101,
+      "day": "Monday 10",
+      "time": "2:28 PM",
+      "cityFrom": "Houston",
+      "stateFrom": "TX",
+      "codeFrom": "33616",
+      "cityTo": "Atlanta",
+      "stateTo": "GA",
+      "codeTo": "30123",
+      "prize": "250.00",
+      "quantity": "1"
+    },
+    {
+      "day": "Friday 15",
+      "time": "5:00 PM",
+      "cityFrom": "Medellin",
+      "stateFrom": "ANT",
+      "codeFrom": "225544",
+      "cityTo": "Bogota",
+      "stateTo": "CUN",
+      "codeTo": "145478",
+      "prize": "50000",
+      "quantity": "1",
+      "id": 102
+    },
+    {
+      "day": "Sunday",
+      "time": "4:30 AM",
+      "cityFrom": "Miami",
+      "stateFrom": "EEUU",
+      "codeFrom": "123456",
+      "cityTo": "Atlanta",
+      "stateTo": "GA",
+      "codeTo": "123456",
+      "prize": "31000",
+      "quantity": "2",
+      "id": 103
+    }
+  ]
+}
