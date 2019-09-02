@@ -6,5 +6,10 @@ Now we have access to the local Database and the application will work correctly
 
 Here is the URL: https://mockup-lean-tech.netlify.com
 
+functionalities:
+
+- Search
+- Add new Trip.
+
 
 Santiago Rios Diaz.
